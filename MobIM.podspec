@@ -7,9 +7,8 @@ s.author              = { "Sands Lee" => "lishzh@youzu.com" }
 s.homepage            = 'http://www.mob.com'
 s.source              = { :git => "https://github.com/MobClub/MobIM.git", :tag => s.version.to_s }
 s.platform            = :ios, '8.0'
-s.frameworks          = "ImageIO", "JavaScriptCore"
-s.libraries           = "icucore", "z", "stdc++.6.0.9", "sqlite3"
+s.frameworks          = "JavaScriptCore"
+s.libraries           = "z", "stdc++.6.0.9"
 s.vendored_frameworks = 'MobIM/MobIM.framework'
 s.dependency 'MOBFoundation'
-s.dependency 'MOBFoundationEx'
 end
